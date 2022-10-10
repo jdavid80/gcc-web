@@ -1,0 +1,11 @@
+.img-principal-movil {
+    display: none;
+}
+@media only screen and (max-width: 500px) {
+    .img-principal {
+        display: none;
+    }
+    .img-principal-movil {
+        display: block;
+    }
+}
