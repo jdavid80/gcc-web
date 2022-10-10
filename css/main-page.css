@@ -1,11 +1,35 @@
 .img-principal-movil {
     display: none;
 }
+.map-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.map-message {
+    margin: 15px;
+    width: 600px;
+    text-align: center;
+    color: rgb(64,64,64,.9);
+}
+.map-pc {
+    display: block;
+}
+.map-movil {
+    display: none;
+}
 @media only screen and (max-width: 500px) {
     .img-principal {
         display: none;
     }
     .img-principal-movil {
+        display: block;
+    }
+    .map-pc {
+        display: none;
+    }
+    .map-movil {
         display: block;
     }
 }
