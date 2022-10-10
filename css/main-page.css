@@ -9,25 +9,33 @@
 }
 .map-message {
     margin: 15px;
-    width: 600px;
     text-align: center;
     color: rgb(64,64,64,.9);
 }
 .map-pc {
     display: block;
+    width: 100%;
+    max-width: 700px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .map-movil {
     display: none;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .img-principal {
         display: none;
     }
     .img-principal-movil {
         display: block;
+        width: 100%;
     }
-    .map-message {
-        width: 350px;
+    .map-section {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .map-pc {
         display: none;
