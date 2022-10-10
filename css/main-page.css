@@ -26,6 +26,9 @@
     .img-principal-movil {
         display: block;
     }
+    .map-message {
+        width: 350px;
+    }
     .map-pc {
         display: none;
     }
