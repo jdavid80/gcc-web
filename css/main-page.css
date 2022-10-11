@@ -23,6 +23,49 @@
 .map-movil {
     display: none;
 }
+.nosotros {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: rgb(12,12,12);
+    opacity: 0.99;
+    z-index: 15;
+}
+.titulo-nosotros {
+    color: white;
+}
+.lista-nosotros {
+    margin: 15px 40px;
+    list-style: none;
+    color: rgb(250,250,250);
+    font-size: 1.2em;
+}
+.item-nosotros {
+    margin: 30px 15px;
+    text-align: left;
+    line-height: 1.6em;
+}
+.style-check {
+    width: 20px;
+    color: white;
+}
+.img-nosotros {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.2;
+    overflow: hidden;
+    z-index: 10;
+}
+.horarios {
+    opacity: 1;
+    z-index: 20;
+}
 @media only screen and (max-width: 600px) {
     .img-principal {
         display: none;
