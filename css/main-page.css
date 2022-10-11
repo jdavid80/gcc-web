@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .map-message {
     margin: 15px;
@@ -31,7 +32,6 @@
         width: 100%;
     }
     .map-section {
-        width: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -42,5 +42,6 @@
     }
     .map-movil {
         display: block;
+        width: 90%;
     }
 }
