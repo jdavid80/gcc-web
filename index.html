@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/main-page.css">
+    <link rel="stylesheet" href="gcc/css/style.css">
+    <link rel="stylesheet" href="gcc/css/main-page.css">
+    <link rel="stylesheet" href="gcc/icons/all.css">
     <title>Gimnasio Colina Campestre</title>
-    <link rel="shortcut icon" href="img/baner_small.png">
+    <link rel="shortcut icon" href="gcc/img/baner_small.png">
 </head>
 <body>
     <div>
         <header class="menu-navigation">
-            <img src="./img/banner1.png" class="logo" alt="logo-gcc">
+            <img src="gcc/img/banner1.png" class="logo" alt="logo-gcc">
             <input class="side-menu" type="checkbox" id="side-menu"/>
             <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
             <nav class="nav">
                 <ul class="menu">
-                    <li class="menu"><a href="#">Inicio</a></li>
+                    <li class="menu"><a href="/">Inicio</a></li>
                     <li class="menu"><a href="#">Servicios</a></li>
                     <li class="menu"><a href="#">Admisiones</a></li>
                     <li class="menu"><a href="#">Nosotros</a></li>
-                    <li class="menu"><a href="#"><img class="login" src="img/bx-user-circle.svg" alt=""></a></li>
+                    <li class="menu"><a href="/loginUser"><!-- <img class="login" src="gcc/img/bx-user-circle.svg" alt=""> -->Iniciar Sesión</a></li>
                 </ul>
             </nav>
         </header>
     </div>
     <section>
         <div class="img-principal">
-            <img class="img-p" src="img/img_2.jpg" alt="">
+            <img class="img-p" src="gcc/img/img_2.jpg" alt="">
         </div>
         <div class="img-principal-movil">
-            <img class="img-p" src="img/img-front-movil1_561x745.jpg">
+            <img class="img-p" src="gcc/img/img-front-movil1_561x745.jpg">
         </div>
     </section> 
     <section class="map-section">
@@ -41,19 +42,56 @@
         <iframe class="map-pc" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.765368379516!2d-76.01709138255616!3d1.8380998000000106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8261746fa6355551!2sGimnasio%20Colina%20Campestre!5e0!3m2!1ses!2sco!4v1665432772102!5m2!1ses!2sco" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     <section class="nosotros">
-        <img class="img-nosotros" src="img/nosotros_291x369.jpg" alt="">
-        <h2 class="titulo-nosotros">Acerca del G.C.C.</h2>
+        <!-- <img class="img-nosotros" src="gcc/img/nosotros_291x369.jpg" alt=""> -->
+        <h2 class="titulo-nosotros">¿Por Qué Elegirnos?</h2>
         <ul class="lista-nosotros">
-            <li class="item-nosotros"><img class="style-check" src="img/check.svg"> Somos un establecimiento educativo con enfoque neuropedagógico y asesoriamiento de expertos.</li>
-            <li class="item-nosotros"><img class="style-check"src="img/check.svg">Nuestros ambientes de formación cuentan con un cupo máximo de 20 estudiantes, favoreciendo la educación personalizada.</li>
+            <li class="item-nosotros"><img class="style-check" src="gcc/img/check.svg"> Somos un establecimiento educativo con enfoque neuropedagógico y asesoriamiento de expertos.</li>
+            <li class="item-nosotros"><img class="style-check"src="gcc/img/check.svg">Nuestros ambientes de formación cuentan con un cupo máximo de 20 estudiantes, favoreciendo la educación personalizada.</li>
             <li class="item-nosotros"><img class="style-check"src="img/check.svg">Contamos con un personal docente altamente calificado.</li>
-            <li class="item-nosotros"><img class="style-check"src="img/check.svg">Contamos con escuelas extracurriculares de Danza, Patinaje y Futbol.</li>
+            <li class="item-nosotros"><img class="style-check"src="gcc/img/check.svg">Contamos con escuelas extracurriculares de Danza, Patinaje y Futbol.</li>
+            <li class="item-nosotros"><img class="style-check"src="gcc/img/check.svg">Nuestro enfoque neuropedagógico permite integrar la dimensión cognitiva, expresiva y afectiva dentro y fuera del aula</li>
+            <li class="item-nosotros"><img class="style-check"src="gcc/img/check.svg">Somos un colegio que brinda una educación innovadora, personalizada y con una mirada puesta en el desarrollo integral del estudiante</li>
         </ul>
-        <p></p>
-        <p> </p>
     </section>
-    <section class="horarios">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate consectetur quo aliquid debitis facere. Magni, est consectetur. Tempora dicta distinctio id officiis modi vel, vero illo, culpa optio eius cupiditate rerum corrupti esse vitae. Eius nobis doloribus facilis animi est quidem libero, beatae neque, consequuntur, dolore id vitae possimus voluptatum aliquid! Unde consequuntur enim praesentium minima laboriosam qui quis culpa harum, ipsum alias beatae possimus repellat molestiae libero 
+    <section class="section-style horarios">
+        <h2>Horarios de Atención</h2>
+        <p class="hora-atencion">Lunes a Viernes - 8:00 a.m. a 11:00 a.m. y de 2:00 p.m a 4:00 p.m.</p>
+        <h2 class="hora-formacion">Horarios de Formación</h2>
+        <table>
+            <thead>
+                <th>Nivel</th>
+                <th>Horario</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Pre-Jardín, Jardín y Transición
+                    </td>
+                    <td>
+                        8:00 a.m. a 3:00 p.m. (Lunes a Jueves)
+                        8:00  a.m. a 12:00 M. (Viernes)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Primaria
+                    </td>
+                    <td>
+                        7:30 a.m. a 3:30 p.m. (Lunes a Jueves)
+                        7:30  a.m. a 12:30 M. (Viernes)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Secundaria Básica (6to. a 9no.)
+                    </td>
+                    <td>
+                        7:30 a.m. a 4:30 p.m. (Lunes a Jueves)
+                        7:30  a.m. a 12:30 M. (Viernes)
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </section>
     <section>
         <section  class="Focus">
@@ -74,7 +112,7 @@
                 intelectuales e inteligencia emocional; haciéndolos personas que fortalezcan su crecimiento
                 personal, que comprendan el mundo que los rodea, más capaces de enfrentar la realidad social y
                 que contribuyan a una sociedad más amable y solidaria.</p>
-            <img class="img-modal" src="img/img_mision.jpg" alt="">
+            <img class="img-modal" src="gcc/img/img_mision.jpg" alt="">
         </div>
         </div>
 
@@ -94,14 +132,14 @@
                 e integral, ayudando a estimular seres humanos con liderazgo, conscientes de su potencial e
                 ingenio para llevar a cabo proyectos investigativos de gran envergadura que generen cambio en
                 pro de la humanidad, brinden responsabilidad social y ambiental.</p>
-            <img class="img-modal" src="img/img_vision.jpg" alt="">
+            <img class="img-modal" src="gcc/img/img_vision.jpg" alt="">
         </div>
         </div>
         </section>
     </section>
     <section class="testimony">
         <div class="testimony__container container">
-            <img src="./img/leftarrow.svg" class="testimony__arrow" id="before">
+            <img src="gcc/img/leftarrow.svg" class="testimony__arrow" id="before">
 
             <section class="testimony__body testimony__body--show" data-id="1">
                 <div class="testimony__texts">
@@ -109,7 +147,7 @@
                     <p class="testimony__review">Es un nivel sumamente importante en la vida de niños y niñas, ya que es la puerta de entrada al mundo escolar y donde vamos a despertar su interés por explorar, descubrir, crear y construir pensamiento.</p>
                 </div>
                 <figure class="testimony__picture">
-                    <img src="./img/nivel_1.jpg" class="testimony__img">
+                    <img src="gcc/img/nivel_1.jpg" class="testimony__img">
                 </figure>
             </section>
             <section class="testimony__body" data-id="2">
@@ -119,7 +157,7 @@
                 </div>
 
                 <figure class="testimony__picture">
-                    <img src="./img/nivel_2.jpg" class="testimony__img">
+                    <img src="gcc/img/nivel_2.jpg" class="testimony__img">
                 </figure>
             </section>
             <section class="testimony__body" data-id="3">
@@ -128,10 +166,10 @@
                     <p class="testimony__review">El alumno Gimnasiano ya en este nivel asume un papel más protagónico en su quehacer pedagógico, se empodera de procesos académicos, construye más independencia en los hábitos de estudio.</p>
                 </div>
                 <figure class="testimony__picture">
-                    <img src="./img/nivel_3.jpg" class="testimony__img">
+                    <img src="gcc/img/nivel_3.jpg" class="testimony__img">
                 </figure>
             </section>
-            <img src="./img/rightarrow.svg" class="testimony__arrow" id="next">
+            <img src="gcc/img/rightarrow.svg" class="testimony__arrow" id="next">
         </div>
     </section>
     <!-- <section class="container about">
@@ -155,7 +193,7 @@
             </article>
         </div>
     </section>  -->
-    <section class="knowledge">
+   <!--  <section class="knowledge">
         <h2 class="subtitle">¿POR QUÉ ELEGIRNOS?</h2>
         <div class="knowledge__container container">
             <figure class="knowledge__picture">
@@ -168,27 +206,42 @@
             
         
         </div>
-    </section>
-</div> <br><br>
+    </section> -->
+</div>
 <footer class="footer">
     <!-- <div class="direccion">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.765368379516!2d-76.01902257304685!3d1.8380998000000233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e250b053c78dd7f%3A0x8261746fa6355551!2sEstablecimiento%20Educativo%20Gimnasio%20Colina%20Campestre!5e0!3m2!1ses-419!2sco!4v1664297829386!5m2!1ses-419!2sco" width="350" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div> -->
-    <section class="footer__container container">
-        <nav class="nav nav--footer">
-            <h2 class="footer__title">Gimnasio Colina Campestre</h2>
-        </nav>
-        </form>
-    </section>
+   
+        <section class="footer__container footer1">
+            <div class="footer-grid">
+                <nav class="style-nav-footer">
+                    <h3 class="titulo-footer">Gimnasio Colina Campestre</h3>
+                    <p class="texto-footer1">Pitalito(Huila) - Colombia.</p>
+                    <p class="texto-footer1">Kilometro 3 Via Pitalito - Acevedo</p><br>
+                    <h3 class="texto-contactenos texto-footer1">Contáctenos</h3>
+                    <p class="texto-footer1">Teléfono: 316 266 9766</p>
+                    <p class="texto-footer1">Horario de Atención: Lunes a Viernes de 8:00 a.m. a 11:00 a.m.<br> 
+                        y de 2:00 p.m. a 4:00 p.m.</p><br>
+                    <ul class="menu-footer">
+                        <li class="item-footer"><a class="style-link" href="/">Inicio</a></li>
+                        <li class="item-footer"><a class="style-link" href="/loginUser">Iniciar Sesión</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="footer__copy">
+            <div class="footer__social">
+                <p class="texto-footer2">Siguenos en nuestras redes sociales</p>
+                <a href="https://web.facebook.com/gimnasiocolinacampestre" target="_blank" class="footer__icons"><i class="icon-style fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/gimnasiocolinacampestre/?hl=es" target="_blank" class="footer__icons"><i class="icon-style fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCjxpprn6W2RwdiAwo2-5TYQ" target="_blank" class="footer__icons"><i class="icon-style fa-brands fa-youtube"></i></a>
+            </div>
 
-    <section class="footer__copy container">
-        <div class="footer__social">
-            <a href="#" class="footer__icons"><img src="./img/facebook.svg" class="footer__img"></a>
-        </div>
-
-        <h3 class="footer__copyright">Derechos reservados &copy; </h3>
-    </section>
+            <h3 class="footer__copyright">Derechos reservados<span class="icon-copyright">&copy;</span> </h3>
+        </section>
+    
 </footer>
-    <script src="./js/script.js"></script>
+    <script src="gcc/js/script.js"></script>
 </body>
 </html>

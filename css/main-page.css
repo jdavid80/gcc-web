@@ -1,6 +1,12 @@
 .img-principal-movil {
     display: none;
 }
+h2 {
+    text-align: center;
+}
+.center-text {
+    text-align: center;
+}
 .map-section {
     display: flex;
     flex-direction: column;
@@ -22,6 +28,9 @@
 }
 .map-movil {
     display: none;
+}
+.section-style {
+    margin-top: 30px;
 }
 .nosotros {
     position: relative;
@@ -65,6 +74,70 @@
 .horarios {
     opacity: 1;
     z-index: 20;
+}
+.hora-atencion {
+    font-size: 1.2em;
+    text-align: center;
+}
+.hora-formacion {
+    text-align: center;
+    margin-top: 20px;
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    
+}
+th, tr, td {
+    margin: 1px solid rgb(64,64,64,.9);
+}
+th {
+    background-color: rgb(64,64,64,.9);
+    color: white;
+    border: 1px solid white;
+}
+.footer1 {
+    padding-bottom: 20px;
+    color: white;
+    padding-left: 40px;
+}
+.titulo-footer {
+    margin-bottom: 8px;
+}
+.menu-footer {
+    list-style: none;
+}
+.item-footer {
+    margin-top: 6px;
+}
+.style-link {
+    color: white;
+}
+.style-link:hover {
+    text-decoration: underline;
+}
+.texto-footer1 {
+    line-height: 1.4em;
+}
+.texto-footer2 {
+    margin-top: 20px;
+}
+.texto-contactenos 
+{
+    font-size: 1em;
+}
+.icon-style {
+    color: white;
+    font-size: 1.4em;
+    padding: 8px;
+}
+.icon-copyright {
+    font-size: .8em;
+    vertical-align: top;
+    padding-left: 2px;
+}
+.footer-grid {
+    display: flex;
 }
 @media only screen and (max-width: 600px) {
     .img-principal {
