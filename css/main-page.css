@@ -96,6 +96,7 @@ th {
     color: white;
     border: 1px solid white;
 }
+<<<<<<< HEAD
 .footer1 {
     padding-bottom: 20px;
     color: white;
@@ -139,6 +140,8 @@ th {
 .footer-grid {
     display: flex;
 }
+=======
+>>>>>>> d3f0a0b07bcf46b85d6562b48db49574ba1f938d
 @media only screen and (max-width: 600px) {
     .img-principal {
         display: none;
