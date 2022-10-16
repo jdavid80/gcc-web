@@ -1,0 +1,120 @@
+.main-content {
+    display: grid;
+    grid-template: "main-nav header" 70px
+                   "main-nav consolidTable" auto  
+                   "main-nav consolidContent" auto /
+                    250px auto;
+}
+header {
+    grid-area: header;
+    height: 100px;
+    color: white;
+    padding-left: 12px;
+    padding-top: 10px;
+    background-color: rgb(73,111,219);
+    display: grid;
+    grid-template: "rol    filtro" 20px
+                   "nombre filtro" 20px /
+                    1fr    1fr
+}
+.nombre-docente {
+    grid-area: nombre;
+    text-align: left;
+    margin-left: 20px;
+}
+.rol-docente {
+    grid-area: rol;
+    text-align: left;
+    margin-left: 20px;
+}
+.filtro {
+    grid-area: filtro;
+    position: absolute;
+    right: 30px;
+    text-align: center;
+/*     margin-right: 25px; */
+    margin-top: 5px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: white;
+    color: rgb(48,48,48,.8);
+    width: 180px;
+    height: 20px;
+    border-radius: 5px;
+}
+.filtro:hover {
+    background-color: rgb(240,240,240);
+    font-weight: 900;
+}
+#consolidTable  {
+    grid-area: consolidTable;
+    background-color: rgb(248,249,248);
+    border-left: 1px solid rgb(200,200,200,.3);
+    
+}
+h2 {
+    margin: 15px 20px 15px 20px;
+    color: rgb(64,64,64,.9);
+    font-size: 1.7em;
+    font-weight: 500;
+}
+
+/* .rol-docente {
+    margin-top: 10px;
+} */
+.table-planeacion {
+    border-collapse: collapse;
+    /* left: 300px;
+    right: 50px;
+    top: 80px; */
+    border-collapse: collapse;
+    margin: 0px 20px 20px 20px;
+    color: rgb(64,64,64,.9);
+}
+th {
+    font-weight: 900;
+}
+th, td {
+    border: 1px solid rgb(96, 96, 96, .3);
+    padding: 15px;
+}
+.iconos {
+    color: rgb(48,48,48,.9);
+    cursor: pointer;
+    font-size: 1.3em;
+    letter-spacing: 10px;
+}
+.div-iconos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;
+}
+/* .style-doc {
+    margin-left: 500px;
+    padding-top: 20px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(48,48,48,.5);
+} */
+#consolidContent {
+    grid-area: consolidContent;
+    border: 1px solid rgb(48,48,48,.5);
+    /* width: 300px; */
+    /* height: 300px; */
+    margin-top: 100px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+    overflow-x: auto;
+}
+.table-microcurr {
+    border-collapse: collapse;
+}
+.div-hidden {
+    display: none;
+}
+.main-nav {
+    grid-area: main-nav;
+}

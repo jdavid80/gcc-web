@@ -1,0 +1,47 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    grid-area: header;
+    height: 75px;
+    color: white;
+    padding-left: 35px;
+    padding-top: 5px;
+    z-index: 20;
+    background-color: rgb(73,111,219);
+    display: grid;
+    grid-template: "rol    filtro" 25px
+                   "nombre filtro" 25px /
+                    1fr    1fr;
+    box-shadow: 0 4px 6px rgb(64,64,64, .4);
+}
+.bar-menu {
+    display: none;
+    grid-area: bar-menu;
+}
+@media only screen and (max-width: 950px) {
+    header {
+        padding-left: 15px;
+        display: grid;
+        align-content: flex-start;
+        grid-template: "rol     bar-menu" 25px
+                       "nombre  bar-menu" 25px /
+                        1fr     40px;
+    }
+    .filtro {
+        display: none;
+    }
+    .bar-menu {
+        display: block;
+        margin-top: 5px;
+        font-size: 1.6em;
+        text-align: left;
+        cursor: pointer;
+    }
+    .rol-docente {
+        font-size: .9em;
+    }
+    .nombre-docente {
+        font-size: .8em;
+    }
+}

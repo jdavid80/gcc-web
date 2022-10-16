@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.main-content {
+    display: grid;
+    grid-template: "main-nav-hidden formulario" 95px/
+                    60px            auto;
+}
+.main-nav {
+    position: fixed;
+    top: 75px;
+    height: 100vh;
+    width: 60px;
+    overflow: auto;
+    box-shadow: 3px 0 6px rgb(64,64,64, .4);
+    transition: all 1.5s;
+    z-index: 20;
+    background-color: rgb(220,220,220);
+}
+
+.main-nav-hidden {
+    grid-area: main-nav-hidden;
+    float: left;
+    height: 100vh;
+    visibility: hidden;
+}
+ul li a {
+    text-decoration: none;
+}
+.main-nav:hover {
+    width: 250px;
+    background-color: rgb(73,111,219, .95);
+}
+.main-nav:hover .icono-planeacion {
+    color: white;
+}
+.rol-docente {
+    grid-area: rol;
+}
+.nombre-docente {
+    grid-area: nombre;
+}
+.filtro {
+    grid-area: filtro;
+    margin-top: 12px;
+    text-align: right;
+}
+input[type="text"] {
+    border-radius: 5px;
+    outline: 0;
+    width: 300px;
+    padding: 5px;
+    border: none;
+    margin-left: 5px;
+    margin-right: 25px;
+}
+input[type="text"]:focus {
+    border: none;
+}
+input[type="text"]:active {
+    border: none;
+}
+/* .div-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    border-bottom: 1px solid rgb(96,96,96,.6);
+    margin-left: 5px;
+    margin-right: 5px;
+} */
+/* .img-logo {
+    width: 85%;
+} */
+.menu-principal {
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu-principal:hover {
+    cursor: pointer;
+}
+.items-principal {
+    /* padding-top: 10px; */
+    display: flex;
+    font-size: 1.5em;
+    color: rgb(48,48,48,.9);
+    list-style: none;
+    display: block;
+    margin-left: -40px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+.icono-planeacion {
+    font-size: .9em;
+    transition: color .5s;
+    color: rgb(102,159,56);
+}
+.texto-icono {
+    margin-left: 8px;
+    font-size: .7em;
+    cursor: pointer;
+    color: rgb(220,220,220);
+    overflow: hidden;
+    display: inline;
+    font-family: 'Lato', sans-serif;
+}
+h1 {
+    text-align: center;
+    margin: 20px 20px 30px 20px;
+}
+.items-principal:hover {
+    background-color:rgb(64,64,64, .7);
+}
+@media only screen and (max-width: 750px) {
+    .main-nav, main-nav-hidden {
+        display: none;
+    }
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-v23-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/lato-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/lato-v23-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/lato-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/lato-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/lato-v23-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
+  }
+

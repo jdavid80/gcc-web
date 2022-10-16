@@ -1,0 +1,51 @@
+.main-content-frm {
+    display: grid;
+    grid-template: "menu form-planeacion" /
+                    60px auto;
+}
+.form-planeacion {
+    grid-area: form-planeacion;
+}
+.info-unidad {
+    background-color: rgb(230,230,230);
+   /*  background-color: rgb(190, 28, 28, .1); */ 
+}
+.back-header {
+    z-index: 10;
+}
+.title-grados {
+    display: block;
+    /* width: 200px; */
+}
+.icon-style-I {
+    margin-top: 0;
+}
+.icon-style-I, .icon-style-II {
+    font-size: 1.7em;
+    color: rgb(24,49,83);
+    /* padding-top: 20px; */
+    margin-left: -20px;
+}
+.icon-style-II {
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+.tab-style {
+    border-left: 1px solid rgb(200,200,200,.9);
+    border-right: 1px solid rgb(200,200,200,.9);
+}
+.nav-style {
+    background-color: rgb(48,48,48,.8);
+    padding-top: 12px;
+    /* border-bottom: 2px solid black; */
+}
+.item-style-I, .item-style-II {
+    background-color: rgb(200,200,200,.9);
+    color: white;
+}
+.item-style-I  {
+    margin-left: 10px;
+}
+.item-style-II {
+    margin-left: 5px;
+}
