@@ -97,8 +97,9 @@ th {
     border: 1px solid white;
 }
 .niveles-style {
-    /* width: 1200px; */
-    /* margin: 0 auto; */
+    background-color: rgb(249,249,249);
+    max-width: 1300px;
+    margin: 0 auto;
 }
 .footer1 {
     padding-bottom: 20px;
@@ -165,16 +166,17 @@ th {
     display: grid;
 }
 @media only screen and (max-width: 1300px) {
-    .niveles-style {
+   /*  .niveles-style {
         width: 500px;
         margin: 0 auto;
-    }
+    } */
     .footer-grid {
         display: grid;
+        width: 430px;
         grid-template: "footer-dir"
                        "footer-contact"
                        "footer-menu";
-        margin: 0 auto;
+        margin-left: 60px;
     }
     .footer-contact {
         padding-left: 0;
@@ -210,5 +212,22 @@ th {
     .map-movil {
         display: block;
         width: 90%;
+    }
+    .niveles-style {
+        width: 100%;
+    }
+    .footer1 {
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-bottom: 1px solid white;
+    }
+    .footer-grid {
+        display: grid;
+        width: 100%;
+        grid-template: "footer-dir"
+                       "footer-contact"
+                       "footer-menu";
+        margin: 0 auto;
     }
 }
