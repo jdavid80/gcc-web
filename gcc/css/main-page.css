@@ -1,3 +1,4 @@
+
 .img-principal-movil {
     display: none;
 }
@@ -43,6 +44,11 @@ h2 {
     background-color: rgb(12,12,12);
     opacity: 0.99;
     z-index: 15;
+    
+}
+.box-nosotros {
+    max-width: 750px;
+    margin: 0 auto;
 }
 .titulo-nosotros {
     color: white;
@@ -81,20 +87,34 @@ h2 {
 }
 .hora-formacion {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 table {
     border-collapse: collapse;
     margin: 0 auto;
     
 }
+.head-table {
+    font-size: 1.4em;
+}
 th, tr, td {
     margin: 1px solid rgb(64,64,64,.9);
+    padding: 15px 30px;
+}
+.row-impar {
+    background-color: rgb(210,210,210,.9);
+}
+.row-par {
+    background-color: rgb(white);
 }
 th {
     background-color: rgb(64,64,64,.9);
     color: white;
     border: 1px solid white;
+}
+.dia-horario {
+    font-weight: 600;
+    line-height: 1.7em;
 }
 .niveles-style {
     background-color: rgb(249,249,249);
@@ -166,6 +186,10 @@ th {
     display: grid;
 }
 @media only screen and (max-width: 1300px) {
+    .horarios {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
    /*  .niveles-style {
         width: 500px;
         margin: 0 auto;
